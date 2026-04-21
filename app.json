@@ -1,0 +1,21 @@
+{
+  "name": "sk king",
+  "description": "sk king 302 WhatsApp bot made by shahid official",
+  "logo": "https://i.ibb.co/GvNY7Kb1/4f0ad87c3da7.jpg",
+  "keywords": ["bot","sk-MD","Shahid-MD"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+        "description": "Put the sk-MD session-id here.",
+        "required": true
+    }
+},
+
+"buildpacks": [
+    {
+        "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+],
+"stack": "heroku-24"
+}
